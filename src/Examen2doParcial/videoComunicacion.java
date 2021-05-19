@@ -82,6 +82,8 @@ public class videoComunicacion {
         sb.append("Su nivel es: ").append(nivel);
         sb.append(System.getProperty("line.separator"));
         sb.append("Su calificación en estrellas es: ").append(estrellas);
+        sb.append(System.getProperty("line.separator"));
+        sb.append("Su calificación en estrellas es: ").append(cantUsuarios * tiempo * estrellas );
         return sb.toString();
     }
     
